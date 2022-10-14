@@ -1,0 +1,27 @@
+[
+  {"name":"employees",
+"fields":["emp_no SERIAL PRIMARY KEY","birth_date DATE","first_name VARCHAR","last_name VARCHAR",
+                 "gender VARCHAR","hire_date DATE"],
+"csv":"employees.csv"
+  },
+  {"name":"departments",
+"fields":["dept_no VARCHAR","dept_name VARCHAR"],
+"csv":"departments.csv"
+  },
+  {"name":"dept_emp",
+"fields":["emp_no integer","dept_no  VARCHAR","from_date DATE","to_date DATE"],
+"csv":"dept_emp.csv"
+  },
+  {"name":"dept_manager",
+"fields":["emp_no integer","dept_no VARCHAR","from_date DATE","to_date DATE"],
+"csv":"dept_manager.csv"
+  },
+  {"name":"salaries",
+"fields":["emp_no integer","salary integer","from_date DATE","to_date DATE"],
+"csv":"salaries.csv"
+  },
+  {"name":"titles",
+"fields":["emp_no integer","title VARCHAR","from_date DATE","to_date DATE"],
+"csv":"titles.csv"
+  }
+]
